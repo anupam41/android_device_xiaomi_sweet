@@ -380,3 +380,8 @@ zygote.critical_window.minute=10
 # LegionOS recovery maintainer Props
 PRODUCT_SYSTEM_PROPERTIES += \
 ro.legion.maintainer=Anupam
+
+# Aperture
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.vendor.camera.privapp.list=org.lineageos.aperture,com.android.camera \
+    vendor.camera.aux.packagelist=org.lineageos.aperture,com.android.camera
