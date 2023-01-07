@@ -281,7 +281,9 @@ PRODUCT_PACKAGES += \
     SettingsResSweet \
     SystemUIResSweet \
     TelephonyResSweet \
-    WifiResSweet
+    WifiResSweet \
+    DialerResSweet \
+    ApertureResSweet
 
 # Perf
 PRODUCT_PACKAGES += \
