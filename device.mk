@@ -283,7 +283,9 @@ PRODUCT_PACKAGES += \
     TelephonyResSweet \
     WifiResSweet \
     DialerResSweet \
-    ApertureResSweet
+    ApertureResSweet \
+    SweetinproSettingsProvider \
+    SweetinproWifiOverlay
 
 # Perf
 PRODUCT_PACKAGES += \
