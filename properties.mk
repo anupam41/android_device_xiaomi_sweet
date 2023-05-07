@@ -376,3 +376,7 @@ persist.debug.wfd.enable=1 \
 # Zygote
 PRODUCT_PROPERTY_OVERRIDES += \
 zygote.critical_window.minute=10
+
+# LegionOS recovery maintainer Props
+PRODUCT_SYSTEM_PROPERTIES += \
+ro.legion.maintainer=Anupam
