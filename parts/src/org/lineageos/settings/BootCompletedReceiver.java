@@ -23,11 +23,14 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.util.Log;
 
+<<<<<<< HEAD
 import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
 import org.lineageos.settings.haptic.HapticUtils;
 
+=======
+>>>>>>> 6961432 (sm6150-common: Drop lineageOS doze also build paranoid doze)
 public class BootCompletedReceiver extends BroadcastReceiver {
     private static final boolean DEBUG = false;
     private static final String TAG = "XiaomiParts";
@@ -39,6 +42,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         }
         if (DEBUG)
             Log.d(TAG, "Received boot completed intent");
+<<<<<<< HEAD
 	// Doze
         DozeUtils.onBootCompleted(context);
 
@@ -50,5 +54,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
         // Haptic
         HapticUtils.restoreLevel(context);
+=======
+>>>>>>> 6961432 (sm6150-common: Drop lineageOS doze also build paranoid doze)
     }
 }

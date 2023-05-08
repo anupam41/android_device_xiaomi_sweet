@@ -231,6 +231,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 MSMSTEPPE := sm6150
 TARGET_BOARD_PLATFORM := $(MSMSTEPPE)
 
+# Paranoid Doze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
 # QTI
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist.xml
