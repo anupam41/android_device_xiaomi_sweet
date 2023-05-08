@@ -235,13 +235,6 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 MSMSTEPPE := sm6150
 TARGET_BOARD_PLATFORM := $(MSMSTEPPE)
 
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti
-
-PRODUCT_PACKAGES += \
-    $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
-
 # QTI
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist.xml
