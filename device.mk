@@ -97,10 +97,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/parts/privapp-permissions-parts.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-parts.xml
 
-# Dexpreopt
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI
-
 # Display
 PRODUCT_PACKAGES += \
     libgui_vendor \
@@ -238,10 +234,6 @@ TARGET_BOARD_PLATFORM := $(MSMSTEPPE)
 # Paranoid Doze
 PRODUCT_PACKAGES += \
     ParanoidDoze
-
-# QTI
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/permissions/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist.xml
 
 # QTI components
 TARGET_COMMON_QTI_COMPONENTS := \
