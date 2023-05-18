@@ -156,7 +156,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.sweet.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sweet.rc
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/bin/init.xiaomi_sm6150.post_boot.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.xiaomi_sm6150.post_boot.sh
+    $(LOCAL_PATH)/rootdir/bin/init.qcom.post_boot.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.post_boot.sh
 
 # IRSC
 PRODUCT_COPY_FILES += \
